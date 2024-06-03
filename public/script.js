@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     //add a comment here that explains the fetching and processing of data    
+    // idk its getting the api i thnk 
     const response = await fetch('/api/data');
     const data = await response.json();
 
@@ -7,6 +8,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const values = data.map(item => item.value);
 
     //comment explaining the creation and configuration of the chart.js chart
+    //uhh uts making a chart thats going to show hyou the stuff from the api ur requesting
+
     const ctx = document.getElementById('myChart').getContext('2d');
     const myChart = new Chart(ctx, {
         type: 'line',
