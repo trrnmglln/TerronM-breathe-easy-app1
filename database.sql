@@ -1,4 +1,5 @@
 --Add a comment here that explains the purpose of the table and sample data being inserted
+--the table is for like the actual place data i thionk idk msn i dont even know why i took this class im majoring in animation T-T
 CREATE TABLE observations (
     ID SERIAL PRIMARY KEY,
     SiteID INT,
